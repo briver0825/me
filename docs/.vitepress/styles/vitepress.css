@@ -1,0 +1,13 @@
+:root{
+  --vp-c-brand: white;
+}
+
+.VPNavBar{
+  border: none !important;
+}
+
+/* Link */
+#app .vp-doc a:hover{
+  color: var(--vp-c-brand);
+  border-bottom: 1px solid white;
+}
