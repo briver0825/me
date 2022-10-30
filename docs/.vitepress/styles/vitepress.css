@@ -9,5 +9,5 @@
 /* Link */
 #app .vp-doc a:hover{
   color: var(--vp-c-brand);
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--vp-c-brand);
 }
