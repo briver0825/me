@@ -10,6 +10,12 @@ export default {
           { text: 'Redis', link: '/programming/redis/Introduction' },
           { text: 'TypeScript', link: '/programming/typescript/Introduction' }
         ]
+      },
+      {
+        text: 'University courses',
+        items: [
+          { text: 'Linux', link: '/university/linux/file-management' },
+        ]
       }
     ],
     socialLinks: [
