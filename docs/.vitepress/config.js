@@ -32,8 +32,9 @@ export default {
             { text: 'DQL', link: '/programming/mysql/DQL' },
             { text: 'DCL', link: '/programming/mysql/DCL' },
             { text: '函数', link: '/programming/mysql/函数' },
-            { text: '多表查询', link: '/programming/mysql/多表查询' },
-            { text: '事务', link: '/programming/mysql/事务' }
+            { text: '事务', link: '/programming/mysql/事务' },
+            { text: '建表约束', link: '/programming/mysql/constraint' },
+            { text: '多表查询', link: '/programming/mysql/多表查询' }
           ]
         }
       ],
@@ -70,7 +71,7 @@ export default {
           items: [
             { text: '文件管理', link: '/university/linux/file-management' },
             { text: '用户管理', link: '/university/linux/user-management' },
-            { text: 'Vim', link: '/university/linux/vim' },
+            { text: 'Vim', link: '/university/linux/vim' }
           ]
         }
       ],
