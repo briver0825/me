@@ -26,14 +26,14 @@ export default {
         {
           text: 'Mysql',
           items: [
-            { text: '介绍', link: '/mysql/Introduction' },
-            { text: 'DDL', link: '/mysql/DDL' },
-            { text: 'DML', link: '/mysql/DML' },
-            { text: 'DQL', link: '/mysql/DQL' },
-            { text: 'DCL', link: '/mysql/DCL' },
-            { text: '函数', link: '/mysql/函数' },
-            { text: '多表查询', link: '/mysql/多表查询' },
-            { text: '事务', link: '/mysql/事务' }
+            { text: '介绍', link: '/programming/mysql/Introduction' },
+            { text: 'DDL', link: '/programming/mysql/DDL' },
+            { text: 'DML', link: '/programming/mysql/DML' },
+            { text: 'DQL', link: '/programming/mysql/DQL' },
+            { text: 'DCL', link: '/programming/mysql/DCL' },
+            { text: '函数', link: '/programming/mysql/函数' },
+            { text: '多表查询', link: '/programming/mysql/多表查询' },
+            { text: '事务', link: '/programming/mysql/事务' }
           ]
         }
       ],
@@ -41,9 +41,9 @@ export default {
         {
           text: 'Redis',
           items: [
-            { text: '介绍', link: '/redis/Introduction' },
-            { text: '数据类型', link: '/redis/数据类型' },
-            { text: '通用命令', link: '/redis/通用命令' },
+            { text: '介绍', link: '/programming/redis/Introduction' },
+            { text: '数据类型', link: '/programming/redis/数据类型' },
+            { text: '通用命令', link: '/programming/redis/通用命令' },
           ]
         }
       ],
@@ -51,19 +51,27 @@ export default {
         {
           text: 'TypeScript',
           items: [
-            { text: '介绍', link: '/typescript/Introduction' },
-            { text: '基础类型', link: '/typescript/basic-types' },
-            { text: 'Functions', link: '/typescript/functions' },
-            { text: 'Enums', link: '/typescript/enums' },
-            { text: 'Assert', link: '/typescript/assert' },
-            { text: 'Generics', link: '/typescript/generics' },
-            { text: 'Class', link: '/typescript/classes' },
-            { text: 'Interfaces', link: '/typescript/interfaces' },
-            { text: 'Types', link: '/typescript/types' },
-            { text: 'Types and Interface', link: '/typescript/types-and-interface' },
+            { text: '介绍', link: '/programming/typescript/Introduction' },
+            { text: '基础类型', link: '/programming/typescript/basic-types' },
+            { text: 'Functions', link: '/programming/typescript/functions' },
+            { text: 'Enums', link: '/programming/typescript/enums' },
+            { text: 'Assert', link: '/programming/typescript/assert' },
+            { text: 'Generics', link: '/programming/typescript/generics' },
+            { text: 'Class', link: '/programming/typescript/classes' },
+            { text: 'Interfaces', link: '/programming/typescript/interfaces' },
+            { text: 'Types', link: '/programming/typescript/types' },
+            { text: 'Types and Interface', link: '/programming/typescript/types-and-interface' },
           ]
         }
-      ]
+      ],
+      '/university/linux/': [
+        {
+          text: 'Linux',
+          items: [
+            { text: '文件管理', link: '/university/linux/file-management' }
+          ]
+        }
+      ],
     },
     footer: {
       copyright: 'Copyright © 2022-present Briver'
