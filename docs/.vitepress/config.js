@@ -68,7 +68,8 @@ export default {
         {
           text: 'Linux',
           items: [
-            { text: '文件管理', link: '/university/linux/file-management' }
+            { text: '文件管理', link: '/university/linux/file-management' },
+            { text: 'Vim', link: '/university/linux/vim' }
           ]
         }
       ],
