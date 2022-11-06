@@ -6,9 +6,9 @@ export default {
       {
         text: 'Programming',
         items: [
-          { text: 'Mysql', link: '/mysql/Introduction' },
-          { text: 'Redis', link: '/redis/Introduction' },
-          { text: 'TypeScript', link: '/typescript/Introduction' }
+          { text: 'Mysql', link: '/programming/mysql/Introduction' },
+          { text: 'Redis', link: '/programming/redis/Introduction' },
+          { text: 'TypeScript', link: '/programming/typescript/Introduction' }
         ]
       }
     ],
@@ -16,7 +16,7 @@ export default {
       { icon: 'github', link: 'https://github.com/xiaozhuclassmate' }
     ],
     sidebar: {
-      '/mysql/': [
+      '/programming/mysql/': [
         {
           text: 'Mysql',
           items: [
@@ -31,7 +31,7 @@ export default {
           ]
         }
       ],
-      '/redis/': [
+      '/programming/redis/': [
         {
           text: 'Redis',
           items: [
@@ -41,7 +41,7 @@ export default {
           ]
         }
       ],
-      '/typescript/': [
+      '/programming/typescript/': [
         {
           text: 'TypeScript',
           items: [
