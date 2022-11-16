@@ -71,6 +71,7 @@ export default {
           items: [
             { text: '文件管理', link: '/university/linux/file-management' },
             { text: '用户管理', link: '/university/linux/user-management' },
+            { text: '用户组管理', link: '/university/linux/user-group-management' },
             { text: 'Vim', link: '/university/linux/vim' }
           ]
         }
