@@ -64,3 +64,14 @@ su
 切换到 zhangsan
 su zhangsan
 ```
+
+## 查看当前用户id 和所属组id
+``` shell
+id
+```
+
+``` shell
+id root
+
+uid=0(root) gid=0(root) groups=0(root)
+```
