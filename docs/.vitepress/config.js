@@ -10,6 +10,7 @@ export default {
           { text: 'Redis', link: '/programming/redis/Introduction' },
           { text: 'TypeScript', link: '/programming/typescript/Introduction' },
           { text: 'Docker', link: '/programming/docker/介绍' },
+          { text: 'Nginx', link: '/programming/nginx/介绍' },
         ]
       },
       {
@@ -77,6 +78,14 @@ export default {
             { text: '网络', link: '/programming/docker/网络' },
             { text: 'Docker File', link: '/programming/docker/Dockerfile' },
             { text: 'Docker Compose', link: '/programming/docker/Docker Compose' },
+          ]
+        }
+      ],
+      '/programming/nginx/': [
+        {
+          text: 'Nginx',
+          items: [
+            { text: '介绍', link: '/programming/nginx/介绍' },
           ]
         }
       ],
