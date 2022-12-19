@@ -86,6 +86,7 @@ export default {
           text: 'Nginx',
           items: [
             { text: '介绍', link: '/programming/nginx/介绍' },
+            { text: '配置', link: '/programming/nginx/配置' },
           ]
         }
       ],
