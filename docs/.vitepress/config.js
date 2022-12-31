@@ -11,14 +11,10 @@ export default {
           { text: 'TypeScript', link: '/programming/typescript/Introduction' },
           { text: 'Docker', link: '/programming/docker/介绍' },
           { text: 'Nginx', link: '/programming/nginx/介绍' },
+          { text: 'Linux', link: '/programming/linux/file-management' },
+          { text: 'Algorithm', link: '/programming/algorithm/位运算' }
         ]
       },
-      {
-        text: 'University courses',
-        items: [
-          { text: 'Linux', link: '/university/linux/file-management' },
-        ]
-      }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xiaozhuclassmate' }
@@ -91,16 +87,34 @@ export default {
           ]
         }
       ],
-      '/university/linux/': [
+      '/programming/nginx/': [
+        {
+          text: 'Nginx',
+          items: [
+            { text: '介绍', link: '/programming/nginx/介绍' },
+            { text: '配置', link: '/programming/nginx/配置' },
+            { text: '防盗链', link: '/programming/nginx/防盗链' },
+          ]
+        }
+      ],
+      '/programming/linux/': [
         {
           text: 'Linux',
           items: [
-            { text: '文件管理', link: '/university/linux/file-management' },
-            { text: '用户管理', link: '/university/linux/user-management' },
-            { text: '用户组管理', link: '/university/linux/user-group-management' },
-            { text: '权限管理', link: '/university/linux/authority-management' },
-            { text: '磁盘管理', link: '/university/linux/disk-management' },
-            { text: 'Vim', link: '/university/linux/vim' }
+            { text: '文件管理', link: '/programming/linux/file-management' },
+            { text: '用户管理', link: '/programming/linux/user-management' },
+            { text: '用户组管理', link: '/programming/linux/user-group-management' },
+            { text: '权限管理', link: '/programming/linux/authority-management' },
+            { text: '磁盘管理', link: '/programming/linux/disk-management' },
+            { text: 'Vim', link: '/programming/linux/vim' }
+          ]
+        }
+      ],
+      '/programming/algorithm/': [
+        {
+          text: '算法',
+          items: [
+            { text: '位运算', link: '/programming/algorithm/位运算' },
           ]
         }
       ],
