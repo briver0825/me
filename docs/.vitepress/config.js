@@ -87,16 +87,6 @@ export default {
           ]
         }
       ],
-      '/programming/nginx/': [
-        {
-          text: 'Nginx',
-          items: [
-            { text: '介绍', link: '/programming/nginx/介绍' },
-            { text: '配置', link: '/programming/nginx/配置' },
-            { text: '防盗链', link: '/programming/nginx/防盗链' },
-          ]
-        }
-      ],
       '/programming/linux/': [
         {
           text: 'Linux',
@@ -115,6 +105,7 @@ export default {
           text: '算法',
           items: [
             { text: '位运算', link: '/programming/algorithm/位运算' },
+            { text: '排序算法', link: '/programming/algorithm/排序算法' },
           ]
         }
       ],
