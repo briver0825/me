@@ -4,3 +4,5 @@
 .vscode
 .obsidian
 dist
+cache
+pnpm-lock.yaml
