@@ -15,6 +15,12 @@ export default {
           { text: 'Algorithm', link: '/programming/algorithm/位运算' }
         ]
       },
+      {
+        text: 'College',
+        items: [
+          { text: '信息技术', link: '/college/information-technology/basic-knowledge' },
+        ]
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xiaozhuclassmate' }
@@ -106,6 +112,14 @@ export default {
           items: [
             { text: '位运算', link: '/programming/algorithm/位运算' },
             { text: '排序算法', link: '/programming/algorithm/排序算法' },
+          ]
+        }
+      ],
+      '/college/information-technology/': [
+        {
+          text: '信息技术',
+          items: [
+            { text: '第一章、计算机基础知识', link: '/college/information-technology/basic-knowledge' },
           ]
         }
       ],
