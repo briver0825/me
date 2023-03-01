@@ -9,6 +9,7 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
+    "markdown-it-katex": "^2.0.3",
     "vitepress": "^1.0.0-alpha.26",
     "vue": "^3.2.41"
   }
