@@ -15,6 +15,7 @@ export default {
                     { text: 'Nginx', link: '/programming/nginx/介绍' },
                     { text: 'Linux', link: '/programming/linux/file-management' },
                     { text: 'Algorithm', link: '/programming/algorithm/位运算' },
+                    { text: 'Go', link: '/programming/go/basic' },
                 ],
             },
             {
@@ -118,6 +119,17 @@ export default {
                     text: '信息技术',
                     items: [
                         { text: '第一章、计算机基础知识', link: '/college/information-technology/basic-knowledge' },
+                    ],
+                },
+            ],
+            '/programming/go/': [
+                {
+                    text: 'Golang',
+                    items: [
+                        {
+                            text: '基础语法',
+                            link: '/programming/go/basic',
+                        },
                     ],
                 },
             ],
